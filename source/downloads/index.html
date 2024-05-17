@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>文件下载</title>  
+</head>  
+<body>  
+    <h2>下载文件</h2>  
+    <!-- 假设服务器上的文件名为 example.zip -->  
+    <a href="example.zip" download="optional-filename.zip">点击下载文件</a>  
+  
+    <!-- 注意：  
+       1. "href" 属性指向要下载的文件的URL。  
+       2. "download" 属性是可选的，它告诉浏览器提示用户下载文件，而不是尝试在浏览器中打开它。  
+       3. "download" 属性的值（如果提供）将是建议的文件名，但浏览器可能会忽略它或基于服务器响应的 "Content-Disposition" 头部来确定文件名。  
+    -->  
+</body>  
+</html>
